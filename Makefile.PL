@@ -30,13 +30,14 @@ my %WriteMakefileArgs = (
     'File::Spec::Functions' => '0',
     'IO::Socket::INET' => '0',
     'Params::Validate' => '0',
+    'Storable' => '0',
     'Time::HiRes' => '0',
     'Ubic::Daemon' => '0',
     'Ubic::Result' => '0',
     'Ubic::Service::Common' => '0',
     'parent' => '0'
   },
-  'VERSION' => '0.01',
+  'VERSION' => '0.02',
   'test' => {
     'TESTS' => 't/*.t'
   }
